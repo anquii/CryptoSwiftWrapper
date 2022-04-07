@@ -4,7 +4,7 @@
 [![Swift Package Manager compatible](https://img.shields.io/badge/SPM-compatible-orange)](#swift-package-manager)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/anquii/CryptoSwiftWrapper/blob/main/LICENSE)
 
-A Swift package wrapper of [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift)'s binary in the form of an `XCFramework` bundle. Using a wrapper is necessary if multiple Swift packages are to depend on `CryptoSwift`'s binary, as it's not possible to define more than one `binaryTarget` for it within the dependency graph.
+A Swift package wrapper of [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift)'s binary (in the form of an `XCFramework` bundle). The wrapper is necessary when multiple Swift packages are to depend on the binary, as it's not possible to define more than one `binaryTarget` for it as part of the dependency graph. The release versioning of this package mirrors the one of [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift).
 
 ## Platforms
 - macOS 10.12+
